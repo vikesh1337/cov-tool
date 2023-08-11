@@ -116,8 +116,6 @@ class ClientGUI:
 
         finally:
             client_socket.close()
-            os.remove(encrypted_file)
-
 
 root = tk.Tk()
 gui = ClientGUI(root)
